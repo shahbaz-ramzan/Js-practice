@@ -40,16 +40,34 @@
 
 // Create a function that takes an array of numbers and returns a new array that contains only the even numbers.
 
-let number =[2,4,6,8,4,3,2,1,2];
+// let number =[2,4,6,8,4,3,2,1,2];
 
-function findEven(number){
-    let evenNumber=[];
+// function findEven(number){
+//     let evenNumber=[];
+//     for(let i=0;i<number.length;i++){
+//         if(number[i]%2===0){
+//             evenNumber.push(number[i])
+//         }
+//     } return evenNumber;
+// }
+
+// let even=findEven(number)
+// console.log(even);
+
+
+// Create a function that takes an array of numbers and returns the largest number in the array.
+
+let number  =[2,4,6,8,4,3,2,1,2];
+
+function findMaximum(number){
+    let max=0;
     for(let i=0;i<number.length;i++){
-        if(number[i]%2===0){
-            evenNumber.push(number[i])
+        if(number[i]>max){
+            max=number[i]
+
         }
-    } return evenNumber;
+    } return max
 }
 
-let even=findEven(number)
-console.log(even);
+const maximum=findMaximum(number);
+console.log(maximum)
