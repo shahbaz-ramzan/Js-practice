@@ -113,18 +113,34 @@
 // Create a function that takes an array of strings and returns a new array with the first letter of each string capitalized.
 
 
-let stringArray=["shahbaz","ali","awais","shahab","sajjid"];
+// let stringArray=["shahbaz","ali","awais","shahab","sajjid"];
 
     
-       function  pascalCase(){
+//        function  pascalCase(){
 
-    for(let i=0;i<stringArray.length;i++){
-        stringArray[i]=stringArray[i].charAt(0).toUpperCase() + stringArray[i].slice(1) 
-        // console.log("test",stringArray[i].charAt(0).toUpperCase())
+//     for(let i=0;i<stringArray.length;i++){
+//         stringArray[i]=stringArray[i].charAt(0).toUpperCase() + stringArray[i].slice(1) 
+//         // console.log("test",stringArray[i].charAt(0).toUpperCase())
    
-    }
-            return stringArray
+//     }
+//             return stringArray
 
-       }
+//        }
 
-console.log(pascalCase(stringArray));
+// console.log(pascalCase(stringArray));
+
+
+// Create a function that takes an array of numbers and returns the sum of all the numbers squared.
+
+// let array= [2,4,2,8];
+
+// function findSquareroot(array){
+//     let sum=0;
+//     for(let i=0;i<array.length;i++){
+//         sum+=array[i]
+//     }
+//     return Math.sqrt(sum)
+// }
+// console.log(findSquareroot(array))
+
+// create a function that takes an array of numbers and returns a new array with only the unique values (i.e., no duplicates).
