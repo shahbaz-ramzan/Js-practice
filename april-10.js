@@ -57,17 +57,36 @@
 
 // Create a function that takes an array of numbers and returns the largest number in the array.
 
-let number  =[2,4,6,8,4,3,2,1,2];
+// let number  =[2,4,6,8,4,3,2,1,2];
 
-function findMaximum(number){
-    let max=0;
-    for(let i=0;i<number.length;i++){
-        if(number[i]>max){
-            max=number[i]
+// function findMaximum(number){
+//     let max=number[0];
+//     for(let i=0;i<number.length;i++){
+//         if(number[i]>max){
+//             max=number[i]
 
+//         }
+//     } return max
+// }
+
+// const maximum=findMaximum(number);
+// console.log(maximum)
+
+
+// Create a function that takes an array of numbers and returns the smallest number in the array.
+
+
+let number =[2,4,6,8,4,3,2,1,2];
+
+function findMinimum(number){
+  let    min=number[0];
+
+    for(let x =0;x<number.length;x++){
+        if(number[x]<min){
+            min=number[x];
         }
-    } return max
+    }return min;
 }
 
-const maximum=findMaximum(number);
-console.log(maximum)
+let minimum=findMinimum(number);
+console.log(minimum)
