@@ -94,11 +94,37 @@
 // Create a function that takes an array of strings and returns a new array with the strings sorted in alphabetical order.
 
 
-let strng=["z","shahbaz","ali","noman"]
 
-function sortedString(strng){
-   let sorted= strng.sort()
-   return sorted;
-}
-let sorte=sortedString(strng)
-console.log(sorte)
+
+// let number=[5,4,3,5,3,2,7,9,6,5,4,7,4,8,9,6,4,3,2,1,8];
+
+// function sortdNumber(number){
+//   let ascending=number.sort(function(a,b){
+//     return a-b;
+//   })
+//   return ascending;
+// }
+
+// let sorted=sortdNumber(number);
+// console.log(sorted)
+
+
+
+// Create a function that takes an array of strings and returns a new array with the first letter of each string capitalized.
+
+
+let stringArray=["shahbaz","ali","awais","shahab","sajjid"];
+
+    
+       function  pascalCase(){
+
+    for(let i=0;i<stringArray.length;i++){
+        stringArray[i]=stringArray[i].charAt(0).toUpperCase() + stringArray[i].slice(1) 
+        // console.log("test",stringArray[i].charAt(0).toUpperCase())
+   
+    }
+            return stringArray
+
+       }
+
+console.log(pascalCase(stringArray));
