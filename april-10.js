@@ -76,17 +76,29 @@
 // Create a function that takes an array of numbers and returns the smallest number in the array.
 
 
-let number =[2,4,6,8,4,3,2,1,2];
+// let number =[2,4,6,8,4,3,2,1,2];
 
-function findMinimum(number){
-  let    min=number[0];
+// function findMinimum(number){
+//   let    min=number[0];
 
-    for(let x =0;x<number.length;x++){
-        if(number[x]<min){
-            min=number[x];
-        }
-    }return min;
+//     for(let x =0;x<number.length;x++){
+//         if(number[x]<min){
+//             min=number[x];
+//         }
+//     }return min;
+// }
+
+// let minimum=findMinimum(number);
+// console.log(minimum)
+
+// Create a function that takes an array of strings and returns a new array with the strings sorted in alphabetical order.
+
+
+let strng=["z","shahbaz","ali","noman"]
+
+function sortedString(strng){
+   let sorted= strng.sort()
+   return sorted;
 }
-
-let minimum=findMinimum(number);
-console.log(minimum)
+let sorte=sortedString(strng)
+console.log(sorte)
