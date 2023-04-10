@@ -1,5 +1,5 @@
-const array = [1, 9, 8, 4, 3, 1, 2, 2, 3, 15];
-const array1 = [3, 4, 2, 1, 567, 32, 15];
+// const array = [1, 9, 8, 4, 3, 1, 2, 2, 3, 15];
+// const array1 = [3, 4, 2, 1, 567, 32, 15];
 
 // concat()
 
@@ -150,7 +150,7 @@ let array3 = [
 // const result1 = array1.findIndex(iseven);
 // console.log(result1);
 
-const names = ["ali", "aban", "ameen", "taskin"];
+// const names = ["ali", "aban", "ameen", "taskin"];
 
 // const result = names.pop();
 // console.log(result);
@@ -176,5 +176,8 @@ const names = ["ali", "aban", "ameen", "taskin"];
 // names.fill("shahbaz", 2, 5);
 // console.log(names);
 
-names.copyWithin(0, 0);
-console.log(names);
+// names.copyWithin(0, 0);
+// console.log(names);
+
+
+//
