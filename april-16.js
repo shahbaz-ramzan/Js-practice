@@ -94,4 +94,58 @@
 
 // console.log(findProduct(input))
 
+//(8) FindIndex: Write a function that takes an array of numbers and returns the index of the first number greater than 1.
+// Example Input: [1, 2, 3]
+// Expected Output: 1
 
+// let input=[1,2,3,4,5]
+
+// function findIndex(input){
+//     return input.indexOf(findGreater())
+//     function findGreater(){
+//         return input.find((el)=>el>1)
+//     }
+// }
+
+// let index=findIndex(input)
+// console.log(index)
+
+// (9)Reduce: Write a function that takes an array of numbers and returns the maximum number.
+// Example Input: [1, 2, 3]
+// Expected Output: 3
+
+// let input=[1,2,3]
+
+// function findMaximum(input){
+//     let max=[0]
+//     for (let index = 0; index < input.length; index++) {
+//         if(input[index]>max){
+//             max=input[index]
+//         }
+        
+//     }
+//     return max
+// }
+
+// console.log(findMaximum(input))
+
+//(10) FindIndex: Write a function that takes an array of numbers and returns the index of the maximum number.
+// Example Input: [1, 2, 3]
+// Expected Output: 2
+
+
+let array=[1,2,3,4,5]
+
+function findMaximum(array){
+    let max =[0]
+    for(let i=0;i<array.length;i++){
+        if(array[i]>max){
+            max=array[i];
+        }
+    }return max 
+}
+
+
+let newArray=array.indexOf(findMaximum(array))
+
+console.log("index of the maximum value is",newArray)
