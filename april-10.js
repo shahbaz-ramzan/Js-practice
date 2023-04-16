@@ -144,3 +144,15 @@
 // console.log(findSquareroot(array))
 
 // create a function that takes an array of numbers and returns a new array with only the unique values (i.e., no duplicates).
+
+
+let number=[5,4,3,5,3,2,7,9,6,5,4,7,4,8,9,6,4,3,2,1,8];
+
+function findUnique(number){
+    
+    let unique =number.filter((el)=>el==unique);
+    console.log(unique)
+
+}
+
+findUnique(number)
