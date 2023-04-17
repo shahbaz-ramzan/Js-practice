@@ -134,18 +134,18 @@
 // Expected Output: 2
 
 
-let array=[1,2,3,4,5]
+// let array=[1,2,3,4,5]
 
-function findMaximum(array){
-    let max =[0]
-    for(let i=0;i<array.length;i++){
-        if(array[i]>max){
-            max=array[i];
-        }
-    }return max 
-}
+// function findMaximum(array){
+//     let max =[0]
+//     for(let i=0;i<array.length;i++){
+//         if(array[i]>max){
+//             max=array[i];
+//         }
+//     }return max 
+// }
 
 
-let newArray=array.indexOf(findMaximum(array))
+// let newArray=array.indexOf(findMaximum(array))
 
-console.log("index of the maximum value is",newArray)
+// console.log("index of the maximum value is",newArray)
