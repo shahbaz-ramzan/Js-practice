@@ -58,10 +58,8 @@
 let array =[1, 2, 3, 4, 5, 6]
 
 function findDivideAble(array){
-    function divide(){
-
-    }
-    return array.indexOf()
+    
+    return array.indexOf(fin)
 }
 
 console.log(findDivideAble(array))
