@@ -61,7 +61,7 @@ function findDivideAble(array){
     function divide(){
 
     }
-    return array.indexOf(el)
+    return array.indexOf()
 }
 
 console.log(findDivideAble(array))
