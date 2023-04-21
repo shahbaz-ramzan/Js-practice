@@ -104,7 +104,12 @@ let array=[
     }
 ]
 
-function findIndex(array){
-    array.indexOf(array.name.Bob)
-}
-console.log(findIndex(array))
+// function findIndex(array){
+//     function findObj(){
+
+//     }
+//  return   array.indexOf(findObj())
+    
+// }
+// console.log(findIndex(array))
+console.log(array.name.Bob)
