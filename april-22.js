@@ -55,12 +55,11 @@
 // Input: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // Output: 30
 
-let array=[1,2,3,4,5,6,7,8,9,10]
+// let array=[1,2,3,4,5,6,7,8,9,10]
 
-function findEvenSum(array){
-     function sum(){
-           let sum
-     }
-    array.filter(el=>sum(el))
+// function findEven(array){
+//     let even=array.filter((item)=>item%2===0)
+//     return even.reduce((a,b)=>a+b)
 
-}
+// }
+// console.log(findEven(array))
