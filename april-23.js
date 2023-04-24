@@ -37,3 +37,32 @@
 // }
 // console.log(findword(array))
 
+// Write a function that takes an array of numbers and returns the average of all the numbers.
+// Input: [1, 2, 3, 4, 5]
+// Output: 3
+
+// let array=[1,2,3,4,5]
+
+// function findAverage(array){
+//     let num=array.length
+//     // console.log(num)
+//     let product=array.reduce((a,b) => a+b)
+//     // console.log(product)
+//     let  avg=product/num
+//     return avg
+//     // console.log(avg)
+    
+// }
+// console.log(findAverage(array))
+
+// Write a function that takes an array of strings and returns the longest string in the array.
+// Input: ['hello', 'world', 'nice', 'to', 'meet', 'you']
+// Output: 'world'
+
+let array=['hello', 'world', 'nice', 'to', 'meet', 'you']
+
+function findString(array){
+    array.filter((el)=> {
+        
+    })
+}
