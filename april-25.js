@@ -55,3 +55,33 @@
 // }
 
 // console.log(sortedArray(array))
+
+// Write a function that takes an array of numbers and returns the median of the numbers.
+// Input: [1, 2, 3, 4, 5]
+// Output: 3
+
+
+// Write a function that takes an array of numbers and returns the highest and lowest numbers in the array as an array.
+// Input: [1, 2, 3, 4, 5]
+// Output: [5, 1]
+
+// let array=[1,2,3,4,5]
+
+// function findinArray(array){
+    
+//     let min=array[0]
+//     let max=array[0]
+//     for(let i=0;i<array.length;i++){
+//         if(array[i]>max){
+//             max=array[i]
+//         }
+//         else if(array[i]<min){
+//             min=array[i]
+//         }
+//     }
+//     return [max,min]
+// }
+
+// console.log(findinArray(array))
+
+
