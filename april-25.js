@@ -25,9 +25,22 @@
 // Input: ['hello', 'world', 'nice', 'to', 'meet', 'you']
 // Output: ['you', 'meet', 'to', 'nice', 'world', 'hello']
 
-let array= ['hello', 'world', 'nice', 'to', 'meet', 'you']
+// let array= ['hello', 'world', 'nice', 'to', 'meet', 'you']
 
-function reverseOrder(array){
-    return array.reverse()
-}
-console.log(reverseOrder(array))
+// function reverseOrder(array){
+//     return array.reverse()
+// }
+// console.log(reverseOrder(array))
+
+// Write a function that takes an array of numbers and returns a new array with only the even numbers.
+// Input: [1, 2, 3, 4, 5, 6]
+// Output: [2, 4, 6]
+
+// let array=[1,2,3,4,5,6]
+
+// function findEven(array){
+//   return    array.filter((el)=>el%2===0)
+// }
+
+// console.log(findEven(array))
+
