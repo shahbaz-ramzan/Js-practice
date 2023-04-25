@@ -13,9 +13,11 @@
 // Input: ['sunny', 'cloudy', 'rainy', 'snowy']
 // Output: ['sunny', 'snowy']
 
-let array=['sunny', 'cloudy', 'rainy', 'snowy']
+// let array=['sunny', 'cloudy', 'rainy', 'snowy']
 
-function findString(array){
-    return array.filter((el)=>el.startsWith("s"))
+// function findString(array){
+//     return array.filter((el)=>el.startsWith("s"))
 
-}
+// }
+
+
