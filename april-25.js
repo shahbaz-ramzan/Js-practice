@@ -85,3 +85,25 @@
 // console.log(findinArray(array))
 
 
+// Write a function that takes an array of strings and returns a new array with the first letter of each string capitalized.
+// Input: ['hello', 'world', 'nice', 'to', 'meet', 'you']
+// Output: ['Hello', 'World', 'Nice', 'To', 'Meet', 'You']
+
+// let array = ['hello', 'world', 'nice', 'to', 'meet', 'you']
+
+// function capitalized(array){
+    
+// }
+
+// Write a function that takes an array of numbers and returns the second highest number in the array.
+// Input: [1, 2, 3, 4, 5]
+// Output: 4
+
+// let array= [1,5,4,3,2,7,5,4,8,9]
+
+// function highest(array){
+//     let newArray=array.sort((a,b)=>a-b)
+//     console.log(newArray)
+//     return newArray.at(array.length-2)
+// }
+// console.log(highest(array))
