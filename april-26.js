@@ -39,10 +39,35 @@
 // Sample input: "hello"
 // Expected output: "h"
 
+// let str="hello"
+
+// function firstLater(str){
+//     return str.charAt(0)
+
+// }
+// console.log(firstLater(str))
+
+// Write a function that takes a string as input and returns the last character of the string.
+// Sample input: "hello"
+// Expected output: "o"
+
+// let str="hello"
+
+// function lastChar(str){
+//    return newstr=str.charAt(str.length-1)
+// }
+// console.log(lastChar(str))
+
+
+// Write a function that takes a string as input and returns a new string with the first character of the input string removed.
+// Sample input: "hello"
+// Expected output: "ello"
+
 let str="hello"
 
-function firstLater(str){
-    return str.charAt(0)
+function findFirst(str){
+
+    return newStr= str.slice(1)
 
 }
-console.log(firstLater(str))
+console.log(findFirst(str))
