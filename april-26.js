@@ -63,11 +63,39 @@
 // Sample input: "hello"
 // Expected output: "ello"
 
-let str="hello"
+// let str="hello"
 
-function findFirst(str){
+// function findFirst(str){
 
-    return newStr= str.slice(1)
+//     return newStr= str.slice(1)
 
+// }
+// console.log(findFirst(str))
+
+// Write a function that takes a string as input and returns a new string with the last character of the input string removed.
+// Sample input: "hello"
+// Expected output: "hell"
+
+// let str="hello"
+
+// function removeLast(str){
+// //    return str.slice(0,-1)
+
+// return str.substring(0 ,str.length-1)
+
+// }
+// console.log(removeLast(str))
+
+// Write a function that takes two strings as input and concatenates them.
+// Sample input: "hello", "world"
+// Expected output: "hello world"
+
+let str1="hello"
+let str2="world"
+
+function concatenates(str1,str2){
+    return newStr=str1.concat(",",str2)
 }
-console.log(findFirst(str))
+
+console.log(concatenates(str1,str2))
+
