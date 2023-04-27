@@ -175,19 +175,32 @@
 // Example input: "hello world"
 // Expected output: 3
 
-let str="hello world"
+// let str="hello world"
 
-function countVowels(str){
-    let vowels=["a","e","i","o","u","A","E","I","O","U"]
+// function countVowels(str){
+//     let vowels=["a","e","i","o","u","A","E","I","O","U"]
 
-    let count=0;
+//     let count=0;
    
-    for(let i=0;i<str.length;i++){
-        if(vowels.includes(str[i])){
-            count ++;
-        }
-    }
-    return count
+//     for(let i=0;i<str.length;i++){
+//         if(vowels.includes(str[i])){
+//             count ++;
+//         }
+//     }
+//     return count
+// }
+
+// console.log(countVowels(str))
+
+// (10) Write a function that takes in a string and returns the number of words in the string.
+// Example input: "hello world"
+// Expected output: 2
+
+let str ="hello world"
+
+function countWorlds(str){
+    let count=str.split(" ")
+    return count.length
 }
 
-console.log(countVowels(str))
+console.log(countWorlds(str))
