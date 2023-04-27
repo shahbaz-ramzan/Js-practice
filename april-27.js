@@ -61,16 +61,47 @@
 // Sample input: "hello world"
 // Expected output: "dlrow olleh"
 
-let str="hello world"
+// let str="hello world"
 
-function reverse(str){
-    let arr=str.split("")
-    // console.log(arr)
-    let newArr=arr.reverse()
-    // console.log(newArr)
-    let newStr=newArr.join("")
-    // console.log(newStr)
-    return newStr
-}
+// function reverse(str){
+//     let arr=str.split("")
+//     // console.log(arr)
+//     let newArr=arr.reverse()
+//     // console.log(newArr)
+//     let newStr=newArr.join("")
+//     // console.log(newStr)
+//     return newStr
+// }
 
-console.log(reverse(str))
+// console.log(reverse(str))
+
+// Write a function that takes a string as input and returns true if the string contains only alphabetic characters, false otherwise.
+// Sample input: "hello world"
+// Expected output: true
+
+
+// (5) Write a function that takes a string as input and returns the number of occurrences of a specified character in the string.
+// Sample input: "hello world", "l"
+// Expected output: 3
+
+// let str="hello world"
+// let char="l"
+
+// function findOccurence(str,char){
+//     let count=0
+//     for(i=0;i<str.length;i++){
+
+//         if(str[i]===char){
+
+//             count ++;
+
+
+//         }
+
+//     }return count
+// }
+
+// console.log(findOccurence(str,char))
+
+
+
