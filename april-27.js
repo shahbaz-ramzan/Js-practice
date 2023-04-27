@@ -125,22 +125,69 @@
 // Sample input: "hello world", "l"
 // Expected output: "heo word"
 
-let str="hello world"
-let char="l"
+// let str="hello world"
+// let char="l"
 
-function allOccurenceRemoved(str,char){
-    newStr="";
+// function allOccurenceRemoved(str,char){
+//     newStr="";
 
-    for(let i=0;i<str.length;i++){
-        if(str[i]!=char){
+//     for(let i=0;i<str.length;i++){
+//         if(str[i]!=char){
 
-            newStr += str[i]
+//             newStr += str[i]
             
 
+//         }
+//     }
+//     // console.log(newStr)
+//     return newStr
+// }
+
+// console.log(allOccurenceRemoved(str,char))
+
+// (8) Write a function that takes a string as input and returns a new string with all occurrences of a specified substring removed.
+// Sample input: "hello world", "l"
+// Expected output: "heo word"
+
+
+
+// let str="hello world"
+// let char="l"
+
+// function allOccurenceRemoved(str,char){
+//     subString="";
+
+//     for(let i=0;i<str.length;i++){
+//         if(str[i]!=char){
+
+//             subString += str[i]
+            
+
+//         }
+//     }
+//     // console.log(subString)
+//     return subString
+// }
+
+// console.log(allOccurenceRemoved(str,char))
+
+// (9) Write a function that takes in a string and returns the number of vowels in the string.
+// Example input: "hello world"
+// Expected output: 3
+
+let str="hello world"
+
+function countVowels(str){
+    let vowels=["a","e","i","o","u","A","E","I","O","U"]
+
+    let count=0;
+   
+    for(let i=0;i<str.length;i++){
+        if(vowels.includes(str[i])){
+            count ++;
         }
     }
-    // console.log(newStr)
-    return newStr
+    return count
 }
 
-console.log(allOccurenceRemoved(str,char))
+console.log(countVowels(str))
