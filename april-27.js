@@ -105,3 +105,42 @@
 
 
 
+
+
+// (6) Write a function that takes a string as input and returns the index of the first occurrence of a specified character in the string, or -1 if the character is not found.
+// Sample input: "hello world", "l"
+// Expected output: 2
+
+// let str = "hello world"
+
+// function findIndex(str){
+//     let newStr=str.indexOf("l")
+    
+//     return newStr
+
+// }
+// console.log(findIndex(str))
+
+// (7) Write a function that takes a string as input and returns a new string with all occurrences of a specified character removed.
+// Sample input: "hello world", "l"
+// Expected output: "heo word"
+
+let str="hello world"
+let char="l"
+
+function allOccurenceRemoved(str,char){
+    newStr="";
+
+    for(let i=0;i<str.length;i++){
+        if(str[i]!=char){
+
+            newStr += str[i]
+            
+
+        }
+    }
+    // console.log(newStr)
+    return newStr
+}
+
+console.log(allOccurenceRemoved(str,char))
