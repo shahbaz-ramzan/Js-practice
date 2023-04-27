@@ -17,21 +17,60 @@
 // Sample input: "hello world"
 // Expected output: "hll wrld"
 
+// let str="hello world"
+
+// function removeVowels(str){
+
+//     let vowels=["a","e","i","o","u","A","E","I","O","u"]
+//     newString=""
+
+//     for(let i=0;i<str.length;i++){
+
+//         if(!vowels.includes(str[i])){
+//             newString += str[i];
+//         }
+
+//     }
+//     return newString
+// }
+
+// console.log(removeVowels(str))
+
+
+// (3) Write a function that takes a string as input and returns a new string with all consonants removed.
+// Sample input: "hello world"
+// Expected output: "eo o"
+
+// let str = "hello world"
+
+// function removeConsnt(str){
+//     let vowels=["a","e","i","o","u","A","E","I","O","u"];
+//     let newString="";
+
+//     for(let i=0;i<str.length;i++){
+//         if(vowels.includes(str[i])){
+//             newString += str[i]
+
+//         }
+//     }return newString
+// }
+// console.log(removeConsnt(str))
+
+
+// (4) Write a function that takes a string as input and returns a new string with the characters in reverse order.
+// Sample input: "hello world"
+// Expected output: "dlrow olleh"
+
 let str="hello world"
 
-function removeVowels(str){
-
-    let vowels=["a","e","i","o","u","A","E","I","O","u"]
-    newString=""
-
-    for(let i=0;i<str.length;i++){
-
-        if(!vowels.includes(str[i])){
-            newString += str[i];
-        }
-
-    }
-    return newString
+function reverse(str){
+    let arr=str.split("")
+    // console.log(arr)
+    let newArr=arr.reverse()
+    // console.log(newArr)
+    let newStr=newArr.join("")
+    // console.log(newStr)
+    return newStr
 }
 
-console.log(removeVowels(str))
+console.log(reverse(str))
