@@ -25,6 +25,7 @@ function findPrime(array){
         }
     }
     return newArr
+    
 
 }
 
